@@ -1,0 +1,8 @@
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\obj\Debug\netstandard2.0\EduTic.App.Dominio.csprojAssemblyReference.cache
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\obj\Debug\netstandard2.0\EduTic.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\obj\Debug\netstandard2.0\EduTic.App.Dominio.AssemblyInfo.cs
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\bin\Debug\netstandard2.0\EduTic.App.Dominio.deps.json
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\bin\Debug\netstandard2.0\EduTic.App.Dominio.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\bin\Debug\netstandard2.0\EduTic.App.Dominio.pdb
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\obj\Debug\netstandard2.0\EduTic.App.Dominio.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Dominio\obj\Debug\netstandard2.0\EduTic.App.Dominio.pdb

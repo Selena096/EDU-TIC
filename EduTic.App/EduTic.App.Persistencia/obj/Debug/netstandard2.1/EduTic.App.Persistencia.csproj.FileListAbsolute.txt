@@ -1,0 +1,11 @@
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\bin\Debug\netstandard2.1\EduTic.App.Persistencia.deps.json
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\bin\Debug\netstandard2.1\EduTic.App.Persistencia.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\bin\Debug\netstandard2.1\EduTic.App.Persistencia.pdb
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\bin\Debug\netstandard2.1\EduTic.App.Dominio.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\bin\Debug\netstandard2.1\EduTic.App.Dominio.pdb
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.AssemblyInfo.cs
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.csproj.CopyComplete
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.pdb
