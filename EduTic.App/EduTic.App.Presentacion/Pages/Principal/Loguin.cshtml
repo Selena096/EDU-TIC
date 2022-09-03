@@ -5,29 +5,46 @@
     ViewData["Title"] = "Homeee";
 }
 
-<h1>LOGIN</h1>
+<head>
+    <link rel="stylesheet" href="~/css/estilosLogin.css" />
 
-<div>
-    <div>
-        <img src="" alt="imagenPrincipal">
+    <h1>LOGIN</h1>
+    
+</head>
+
+
+
+<div class="container">
+    <div class="row">
+    <div class="col">
+        <img src="~/css/otros/1263.jpg" alt="imagenPrincipal" width="600" height="600">
     </div>
 
-    <div>
-        <form>
+    <div class="col">
+        <form class="center">
             <div>
-                <label>Usuario</label>
+                <label>Usuario:</label>
                 <input type="text" id="txt_user" name="txt_user" placeholder="Usuario">
             </div>
 
             <div>
-                <label>Contraseña</label>
+                <label>Contraseña:</label>
                 <input type="text" id="txt_user" name="txt_user" placeholder="Contraseña">
             </div>
 
-            <div>
+            <div class="center1">
                 <button type="button" id="btn_iniciarSesion">Iniciar Sesion</button>
             </div>
+
+            
+            <div class="text-center">
+                <a class="" href="#">
+                 Registrarse
+                </a>
+            </div>
+
         </form>
 
     </div>
+  </div>
 </div>
