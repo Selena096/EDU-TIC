@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\acer\\.nuget\\packages\\": {}
+    "C:\\Users\\Selena\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acer\\OneDrive\\Escritorio\\Selena\\EDU-TIC\\EduTic.App\\EduTic.App.Presentacion\\EduTic.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Presentacion\\EduTic.App.Presentacion.csproj",
       "projectName": "EduTic.App.Presentacion",
-      "projectPath": "C:\\Users\\acer\\OneDrive\\Escritorio\\Selena\\EDU-TIC\\EduTic.App\\EduTic.App.Presentacion\\EduTic.App.Presentacion.csproj",
-      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acer\\OneDrive\\Escritorio\\Selena\\EDU-TIC\\EduTic.App\\EduTic.App.Presentacion\\obj\\",
+      "projectPath": "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Presentacion\\EduTic.App.Presentacion.csproj",
+      "packagesPath": "C:\\Users\\Selena\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Selena\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.117\\RuntimeIdentifierGraph.json"
       }
     }
   }
