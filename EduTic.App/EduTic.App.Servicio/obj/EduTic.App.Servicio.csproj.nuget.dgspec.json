@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj": {}
+    "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj": {
+    "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj",
+        "projectUniqueName": "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj",
         "projectName": "EduTic.App.Servicio",
-        "projectPath": "C:\\xampp\\htdocs\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj",
+        "projectPath": "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\EduTic.App.Servicio.csproj",
         "packagesPath": "C:\\Users\\Selena\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\obj\\",
+        "outputPath": "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Servicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Selena\\AppData\\Roaming\\NuGet\\NuGet.Config"
