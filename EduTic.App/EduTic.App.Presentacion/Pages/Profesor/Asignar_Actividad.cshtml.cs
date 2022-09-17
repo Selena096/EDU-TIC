@@ -16,9 +16,14 @@ namespace EduTic.App.Presentacion.Pages
         private readonly IRepositorioMateria _repoMateria;
         public IEnumerable<Materia> listaMateria{get;set;}
 
-        public Asignar_ActividadModel(IRepositorioMateria repoMateria)
+        private readonly IRepositorioActividad _repoActividad;
+        public Actividad Actividad{get;set;}
+
+
+        public Asignar_ActividadModel(IRepositorioMateria repoMateria, IRepositorioActividad repoActividad)
         {
             _repoMateria=repoMateria;
+            _repoActividad=repoActividad;
         }
 
 
@@ -26,6 +31,15 @@ namespace EduTic.App.Presentacion.Pages
         {
             listaMateria=new List<Materia>();
             listaMateria =_repoMateria.GetAllMaterias();
+        } 
+
+        public async Task<IActionResult> OnPost()
+        {
+            if(!ModelState.IsValid){
+                return Page();
+            }
+            _repoActividad.addActividad(Actividad);
+            return RedirectToPage("/Index");
         }
     }
 }

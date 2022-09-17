@@ -26,7 +26,7 @@
             <div class="mb-2 row">
                 <label for="inputPassword" class="h3 col-sm-2 col-form-label">Grado</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control form-control-sm" id="inputPassword">
+                    <input type="text" class="form-control form-control-sm" id="" >
                 </div>
             </div>
             <div class="mb-2 row">
@@ -35,11 +35,11 @@
                     <select class="form-select form-select-sm" aria-label=".form-select-sm example">
                     <option selected>Escoja Materia</option>
                     
-                     @foreach (var x in Model.listaMateria)
+                      @foreach (var x in Model.listaMateria)
                     {
                       <option value="@x.id">@x.nombre</option>
                     
-                    }
+                    } 
                     
                     @* <option value="1">One</option>
                     <option value="2">Two</option>
@@ -58,25 +58,25 @@
             <div class="mb-2 row">
                 <label for="inputPassword" class="h3 col-sm-2 col-form-label">Actividad</label>
                 <div class="col-sm-7">
-                    <input type="text" class="form-control form-control-sm" id="exampleInputPassword1">
+                    <input type="text" class="form-control form-control-sm" id=""  sp-for="Actividad.nombreActividad" >
                 </div>
             </div>
             <div class="mb-2 row">
                 <label for="inputPassword" class="h3 col-sm-2 col-form-label">Descripcion</label>
                 <div class="col-sm-7 form-floating">
                     <textarea  v-model="novedad.novedad" class="form-control form-control-sm" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Comments</label>
+                    <label for="floatingTextarea2"  sp-for="Actividad.descripcion" >Comments</label>
                 </div>
             </div>
 
                 @* Enviar un archivo por medio de un formulario enctype="multipart/data"  *@
-            @using (Html.BeginForm("Guardar","Archivo",FormMethod.Post,new {
-                enctype="multipart/data" 
+            @using (Html.BeginForm("addActividad","Archivo",FormMethod.Post,new {
+                enctype="multipart/form-data" 
             })){
                 <div class="mb-2 row">
                 <label for="inputPassword" class="h3 col-sm-2 col-form-label">Archivo</label>
                 <div class="col-sm-7">
-                    <input type="file" class="form-control form-control-sm" id="archivoP">
+                    <input type="file" class="form-control form-control-sm" id="archivo" asp-for="Actividad.archivoP">
                 </div>
                 </div>
             }

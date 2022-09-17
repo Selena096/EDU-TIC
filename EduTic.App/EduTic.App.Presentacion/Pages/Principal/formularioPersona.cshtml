@@ -1,0 +1,164 @@
+@page
+@model EduTic.App.Presentacion.Pages.formularioPersonaModel
+@{
+
+    ViewData["Title"] = "Formulario Persona";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Loguin.css" />
+    <link rel="stylesheet" href="~/css/estilosLogin.css" />
+    <h1>FORMULARIO DE REGISTRO PROFESOR</h1>
+</head>
+
+
+<div class="border">
+    <form method="post">
+        <div class="container" style="padding: 30px;" >
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Profesor.nombres"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Profesor.nombres" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Profesor.apellidos"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Profesor.apellidos" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Profesor.edad"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Profesor.edad" class="form-control">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Profesor.direccion"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Profesor.direccion" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Profesor.email"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Profesor.email" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="Profesor.cargo"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="Profesor.cargo" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+             <div class="form-group">
+                <div class="row">
+                   <label for="lang" class="LabelLeft">
+                        <h3>Grado</h3>
+                    </label>
+
+                <select name="" id="" asp-for="Profesor.grado">
+                    <option value="Seleccione">--Seleccione su Curso--</option>
+                    <option value="Sexto">Sexto</option>
+                    <option value="Septimo">Septimo</option>
+                    <option value="Octavo">Octavo</option>
+                    <option value="Noveno">Noveno</option>
+                    <option value="Decimo">Decimo</option>
+                    <option value="Once">Once</option>
+                </select> 
+                </div>
+            </div>
+
+
+              <div class="form-group">
+                <div class="row">
+                   <label for="lang" class="LabelLeft">
+                        <h3>Materia</h3>
+                    </label>
+
+                 <select onchange="Mostrar()" id="nombre" class="form-select form-control" asp-for="Materia.nombre" asp-items="Model.nombreMateria">
+                    <option selected>Seleccione su Materia</option>  
+                </select>
+                <input type="hidden" id="dato" name="nombres">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2 offset-sm-2">
+                       <input type="submit" value="Crear" class="btn btn-primary form-control">
+                    </div>
+                    <div class="col-sm-2">
+                        <a asp-page="/Index" class="btn btn-success form-control">Volver</a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </form>
+
+</div>
+
+
+<script type="text/javascript">
+function Mostrar (){
+    var dato=document.getElementById("nombre");
+    var seleccionada=dato.options[dato.selectedIndex].text;
+    document.getElementById("dato").value=seleccionada; 
+    
+}
+
+</script>
+
+                <!-- Boton Desplegable para El tipo de Persona -->
+
+                @* <label for="lang" class="LabelLeft">
+                    <h3> Tipo De Persona</h3>
+                </label>
+                <select name="TipoPersona" id="lang" asp-for="Persona.">
+                    <option value="Seleccione">--Seleccione--</option>
+                    <option value="Docente">Docente</option>
+                    <option value="Estudiante">Estudiante</option>
+                </select> *@
+        
+
+
+
+
+
+
+
+

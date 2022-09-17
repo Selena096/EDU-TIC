@@ -1,0 +1,27 @@
+﻿@* @page
+@model EduTic.App.Presentacion.Pages.AsignarCargaAModel
+@{
+}
+
+@* <h1 style="text-align: center;">Lista de Registro</h1>
+
+<br>
+
+<table class="table">
+    <tr>
+        <td>Nombre</td>
+        <td>Apellidos</td>
+        <td>email</td>
+    </tr>
+    @foreach (var x in Model.listaPersona)
+    {
+        <tr>
+            <td>@x.nombres</td>
+            <td>@x.apellidos</td>
+            <td>@x.email</td>
+            <td><a class="btn btn-secondary" asp-page="/Principal/Carga" asp-route-personaId="@x.Id">Asignar Carga Academica</a>
+            <input asp-for="persona.id" type="">
+            </td>
+        </tr>
+    }
+</table> *@ 

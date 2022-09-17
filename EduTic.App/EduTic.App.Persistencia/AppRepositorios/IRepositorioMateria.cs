@@ -1,6 +1,6 @@
 using EduTic.App.Dominio;
 using System.Collections.Generic;
-
+using Microsoft.AspNetCore.Mvc.Rendering; 
 
 namespace EduTic.App.Persistencia
 {
@@ -10,6 +10,10 @@ namespace EduTic.App.Persistencia
          Materia addMateria(Materia materia); // Crear una materia
          IEnumerable<Materia> GetAllMaterias();
         //Listas 
+       /*  List<SelectListItem> ConsultarNombresMateria(); */
+        List<SelectListItem> ConsultarNombresMateria();
+        Materia ConsultarxNombre(string nombre);
+        Materia GetxCodigo(int id);
     }
    
-}
+} 

@@ -1,5 +1,5 @@
 @page
-@model EduTic.App.Presentacion.Pages.Asignar_ActividadModel
+@model EduTic.App.Presentacion.Pages.ListarModel
 @{
     ViewData["Title"] = "Asignar Actividad";
 }
@@ -7,7 +7,7 @@
       <link rel="stylesheet" href="~/css/Asignar_Actividad.css" />
   </head>
   <ol class="breadcrumb">
-      <li class="breadcrumb-item active">Sección LIstar</li>
+      <li class="breadcrumb-item active">Sección Listar</li>
   </ol>
 
   <ul class="nav nav-tabs">
@@ -18,4 +18,24 @@
       <a class="nav-link active" aria-current="page" href="Listar">Listar</a>
     </li>
   </ul>
+
+  <table class="table">
+    <tr>
+        <td>Nombre Actividad</td>
+        <td>Descripcion</td>
+        <td>Archivo</td>
+        <td>Eliminar</td>
+    </tr>
+    @foreach (var x in Model.listaActividad)
+    {
+        <tr>
+            <td>@x.nombreActividad</td>
+            <td>@x.descripcion</td>
+            <td>@x.archivoP</td>
+            <td><a class="btn btn-secondary" asp-page="/Profesor/Consulta" asp-route-pacienteId="">Eliminar</a>
+            </td>
+            <td><a class="btn btn-success" asp-page="/Profesor/Edicion" asp-route-pacienteId="">Editar</a></td>
+        </tr>
+    }
+</table>
       

@@ -26,13 +26,27 @@ namespace EduTic.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<byte[]>("archivoE")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<byte[]>("archivoP")
+                        .HasColumnType("varbinary(max)");
+
                     b.Property<string>("descripcion")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("materiasid")
+                        .HasColumnType("int");
 
                     b.Property<string>("nombreActividad")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<float>("nota")
+                        .HasColumnType("real");
+
                     b.HasKey("id");
+
+                    b.HasIndex("materiasid");
 
                     b.ToTable("Actividad");
                 });
@@ -44,18 +58,10 @@ namespace EduTic.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int?>("actividadid")
-                        .HasColumnType("int");
-
                     b.Property<string>("nombre")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("nota")
-                        .HasColumnType("real");
-
                     b.HasKey("id");
-
-                    b.HasIndex("actividadid");
 
                     b.ToTable("Materia");
                 });
@@ -132,13 +138,13 @@ namespace EduTic.App.Persistencia.Migrations
                     b.HasDiscriminator().HasValue("Profesor");
                 });
 
-            modelBuilder.Entity("EduTic.App.Dominio.Materia", b =>
+            modelBuilder.Entity("EduTic.App.Dominio.Actividad", b =>
                 {
-                    b.HasOne("EduTic.App.Dominio.Actividad", "actividad")
+                    b.HasOne("EduTic.App.Dominio.Materia", "materias")
                         .WithMany()
-                        .HasForeignKey("actividadid");
+                        .HasForeignKey("materiasid");
 
-                    b.Navigation("actividad");
+                    b.Navigation("materias");
                 });
 
             modelBuilder.Entity("EduTic.App.Dominio.Estudiante", b =>

@@ -6,7 +6,7 @@ namespace EduTic.App.Dominio
         
         public String cargo{get;set;}
         
-        public Materia materiaP{get;set;}
+        public Materia Materia{get;set;}
         ///Relacion entre Profesor y materia
 
     }

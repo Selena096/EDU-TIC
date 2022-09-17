@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Reflection;
 using EduTic.App.Persistencia;
 
 namespace EduTic.App.Presentacion
@@ -26,8 +27,12 @@ namespace EduTic.App.Presentacion
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioMateria, RepositorioMateria>();
-            
+            services.AddSingleton<IRepositorioActividad, RepositorioActividad>();
+            services.AddSingleton<IRepositorioProfesor, RepositorioProfesor>();
+             //services.AddSingleton<IRepositorioPersona, RepositorioPersona>();
         }
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

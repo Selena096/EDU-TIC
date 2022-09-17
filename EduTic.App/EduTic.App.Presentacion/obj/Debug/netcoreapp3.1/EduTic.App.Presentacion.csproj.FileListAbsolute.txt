@@ -121,3 +121,15 @@ C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\b
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\EduTic.App.Persistencia.dll
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\EduTic.App.Persistencia.pdb
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\EduTic.App.Dominio.pdb
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Principal\formularioPersona.cshtml.g.cs
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Principal\AsignarCargaA.cshtml.g.cs
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Presentacion\obj\Debug\netcoreapp3.1\EduTic.App.Presentacion.MvcApplicationPartsAssemblyInfo.cs
