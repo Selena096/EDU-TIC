@@ -5,7 +5,7 @@ namespace EduTic.App.Dominio{
     public class Materia{
 
         public int id{get;set;}
-        public String nombre{get;set;}
+        public string nombre{get;set;}
    
 
     }

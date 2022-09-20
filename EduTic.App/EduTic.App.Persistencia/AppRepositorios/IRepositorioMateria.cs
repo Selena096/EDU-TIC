@@ -10,10 +10,9 @@ namespace EduTic.App.Persistencia
          Materia addMateria(Materia materia); // Crear una materia
          IEnumerable<Materia> GetAllMaterias();
         //Listas 
-       /*  List<SelectListItem> ConsultarNombresMateria(); */
         List<SelectListItem> ConsultarNombresMateria();
-        Materia ConsultarxNombre(string nombre);
-        Materia GetxCodigo(int id);
+        //Materia ConsultarxNombre(string nombre);
+        Materia GetxCodigo(int c);
     }
    
 } 

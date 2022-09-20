@@ -29,7 +29,8 @@ namespace EduTic.App.Presentacion
             services.AddSingleton<IRepositorioMateria, RepositorioMateria>();
             services.AddSingleton<IRepositorioActividad, RepositorioActividad>();
             services.AddSingleton<IRepositorioProfesor, RepositorioProfesor>();
-             //services.AddSingleton<IRepositorioPersona, RepositorioPersona>();
+            services.AddSingleton<IRepositorioEstudiante, RepositorioEstudiante>();
+            services.AddControllersWithViews();
         }
 
 
@@ -52,6 +53,7 @@ namespace EduTic.App.Presentacion
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

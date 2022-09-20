@@ -11,17 +11,17 @@ namespace EduTic.App.Persistencia
  
         public Actividad addActividad(Actividad actividad)
         {
-           
-                /* byte[] bytes;
+           /* 
+                 byte[] bytes;
                 using(BinaryReader br = new BinaryReader(actividad.archivoP))
                 {
                     bytes= br.ReadBytes(actividad.archivoP);
-                } */
+                } 
 
-                    /* Actividad d = new Actividad();
+                     Actividad d = new Actividad();
                     d.nombreActividad=Actividad.nombreActividad;
                     d.descripcion=Actividad.descripcion;
-                    d.archivoP=Actividad.archivoP; */
+                    d.archivoP=Actividad.archivoP;  */
                    var actividadAdicionada = _appContext.Actividad.Add(actividad);
                     _appContext.SaveChanges();
                     return actividadAdicionada.Entity; 

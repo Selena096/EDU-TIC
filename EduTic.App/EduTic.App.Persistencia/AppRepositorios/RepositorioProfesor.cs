@@ -1,7 +1,7 @@
 using EduTic.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
-using System.Data;
+using System.Data.Entity;
 
 
 namespace EduTic.App.Persistencia
@@ -29,5 +29,28 @@ namespace EduTic.App.Persistencia
         {
             return _appContext.Profesor;
         }
+
+         public Profesor GetProfesorE(string email)
+        {
+            return _appContext.Profesor.FirstOrDefault(p=>p.email==email);
+        }
+
+        public Profesor update(Profesor profesor){
+            var profesorEncontrado=_appContext.Profesor.FirstOrDefault(p=>p.id==profesor.id);
+            if(profesorEncontrado!=null)
+            {
+                profesorEncontrado.nombres=profesor.nombres;
+                profesorEncontrado.apellidos=profesor.apellidos;
+                profesorEncontrado.email=profesor.email;
+                profesorEncontrado.edad=profesor.edad;
+                profesorEncontrado.direccion=profesor.direccion;
+                profesorEncontrado.grado=profesor.grado;
+                profesorEncontrado.cargo=profesor.cargo;
+                profesorEncontrado.materiaP=profesor.materiaP;
+               
+                _appContext.SaveChanges();
+            }
+            return profesorEncontrado;
+        } 
     }
 }

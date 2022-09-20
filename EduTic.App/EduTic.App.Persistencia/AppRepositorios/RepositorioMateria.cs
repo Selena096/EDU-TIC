@@ -1,7 +1,7 @@
 using EduTic.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
-using System.Data;
+using System.Data.Entity;
 using Microsoft.AspNetCore.Mvc.Rendering; 
 
 namespace EduTic.App.Persistencia
@@ -33,18 +33,19 @@ namespace EduTic.App.Persistencia
         {
             return _appContext.Materia.Select(m=> new SelectListItem{
                 Value=(m.nombre).ToString(),
-                Text=(m.nombre+ " "+ m.id)
+                Text=(m.nombre +" "+ m.id)
             }).ToList();
         } 
 
-        public Materia ConsultarxNombre(string nombre)
+
+        /* public Materia ConsultarxNombre(string nombre)
         {
            return _appContext.Materia.FirstOrDefault(m=>m.nombre==nombre);
-        }
+        } */
 
-         public Materia GetxCodigo(int id)
+         public Materia GetxCodigo(int c)
         {
-           return _appContext.Materia.FirstOrDefault(p=>p.id==id);
+           return _appContext.Materia.FirstOrDefault(p=>p.id==c);
         }
     }   
 } 

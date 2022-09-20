@@ -9,3 +9,4 @@ C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\o
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.csproj.CopyComplete
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.dll
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.pdb
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Persistencia\obj\Debug\netstandard2.1\EduTic.App.Persistencia.csproj.CoreCompileInputs.cache

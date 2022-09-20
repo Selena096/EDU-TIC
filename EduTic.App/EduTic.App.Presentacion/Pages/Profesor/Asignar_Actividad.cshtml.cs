@@ -6,40 +6,59 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using EduTic.App.Persistencia;
 using EduTic.App.Dominio;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace EduTic.App.Presentacion.Pages
 {
+    [Authorize]
     public class Asignar_ActividadModel : PageModel
     {
-
-        private readonly IRepositorioMateria _repoMateria;
-        public IEnumerable<Materia> listaMateria{get;set;}
-
+        private readonly IRepositorioProfesor _repoProfesor;
         private readonly IRepositorioActividad _repoActividad;
-        public Actividad Actividad{get;set;}
+        [BindProperty]
+        public Profesor profesor{get;set;}
+        public Actividad actividad{get;set;}
 
-
-        public Asignar_ActividadModel(IRepositorioMateria repoMateria, IRepositorioActividad repoActividad)
+        public Asignar_ActividadModel(IRepositorioProfesor repoProfesor,IRepositorioActividad repoActividad)
         {
-            _repoMateria=repoMateria;
+            _repoProfesor=repoProfesor;
             _repoActividad=repoActividad;
         }
 
 
         public void OnGet()
         {
-            listaMateria=new List<Materia>();
-            listaMateria =_repoMateria.GetAllMaterias();
+            profesor=new Profesor();
         } 
 
+
+        /* 
         public async Task<IActionResult> OnPost()
         {
-            if(!ModelState.IsValid){
+            profesor=_repoProfesor.GetProfesorE(profesor.email);
+            if (profesor == null)
+            {
+                Console.WriteLine("pesimo");
+                return RedirectToPage("/Error");
+            }
+            return Page();
+            Console.WriteLine("listo");
+        } */
+
+         public async Task<IActionResult> OnPostArchivo()
+        {
+            if (actividad==null)
+            {
+                Console.WriteLine("pesimo");
                 return Page();
             }
-            _repoActividad.addActividad(Actividad);
-            return RedirectToPage("/Index");
+            _repoActividad.addActividad(actividad);
+            Console.WriteLine("listo");
+             return RedirectToPage("/Profesor/Asignar_Actividad");
         }
+
+
+
     }
 }

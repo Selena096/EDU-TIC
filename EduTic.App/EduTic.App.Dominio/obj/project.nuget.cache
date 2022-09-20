@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RjARBPC3iki4mG0tGcIbTb8yk5MZ1rV3N3c5ROsz7+5I3zCDoHM55T3elPRgBIo0OoqKaudbJE5QqpWol2j7fQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Selena\\OneDrive\\Escritorio\\Edu-TIC\\EduTic.App\\EduTic.App.Dominio\\EduTic.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Selena\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Selena\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

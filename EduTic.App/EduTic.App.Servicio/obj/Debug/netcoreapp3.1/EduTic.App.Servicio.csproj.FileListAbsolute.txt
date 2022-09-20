@@ -16,3 +16,5 @@ C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Servicio\obj\D
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Servicio\obj\Debug\netcoreapp3.1\staticwebassets\EduTic.App.Servicio.StaticWebAssets.xml
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Servicio\obj\Debug\netcoreapp3.1\EduTic.App.Servicio.dll
 C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Servicio\obj\Debug\netcoreapp3.1\EduTic.App.Servicio.pdb
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Servicio\obj\Debug\netcoreapp3.1\EduTic.App.Servicio.csproj.CoreCompileInputs.cache
+C:\Users\Selena\OneDrive\Escritorio\Edu-TIC\EduTic.App\EduTic.App.Servicio\obj\Debug\netcoreapp3.1\EduTic.App.Servicio.genruntimeconfig.cache

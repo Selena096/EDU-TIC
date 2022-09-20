@@ -8,6 +8,8 @@ namespace EduTic.App.Persistencia
     {
         Profesor addProfesor(Profesor profesor);
         IEnumerable<Profesor> GetAll();
+        Profesor GetProfesorE(string email);
+        Profesor update(Profesor profesor);
         
         
 

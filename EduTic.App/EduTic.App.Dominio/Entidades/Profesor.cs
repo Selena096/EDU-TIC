@@ -4,10 +4,11 @@ namespace EduTic.App.Dominio
 {
     public class Profesor:Persona{
         
-        public String cargo{get;set;}
+        public string cargo{get;set;}
         
-        public Materia Materia{get;set;}
+        //public Materia materiaPid{get;set;}
         ///Relacion entre Profesor y materia
+        public Materia materiaP{get;set;}
 
     }
 }

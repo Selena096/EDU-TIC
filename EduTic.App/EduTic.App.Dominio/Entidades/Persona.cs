@@ -5,14 +5,14 @@ namespace EduTic.App.Dominio
     public class Persona
     {
         public int id{get;set;}
-        public String nombres{get;set;}
-        public String apellidos{get;set;}
-        public String email{get;set;}
+        public string nombres{get;set;}
+        public string apellidos{get;set;}
+        public string email{get;set;}
         public int edad{get;set;}
-        public String direccion{get;set;}
-        public String contraseña{get;set;}
-        public String nombreUsuario{get;set;}
-        public String grado{get;set;}
+        public string direccion{get;set;}
+        public string contraseña{get;set;}
+        public string nombreUsuario{get;set;}
+        public string grado{get;set;}
   
     
     }

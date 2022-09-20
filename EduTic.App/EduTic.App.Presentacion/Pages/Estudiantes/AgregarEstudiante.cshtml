@@ -1,0 +1,116 @@
+﻿@page
+@model EduTic.App.Presentacion.Pages.AgregarEstudianteModel
+@{
+    ViewData["Title"] = "Formulario Agregar Estudiante";
+}
+<head>
+    @* <link rel="stylesheet" href="~/css/Loguin.css" /> *@
+    <link rel="stylesheet" href="~/css/estilosLogin.css" />
+    <h1>FORMULARIO DE REGISTRO ESTUDIANTE</h1>
+</head>
+
+
+<div class="border">
+    <form method="post" >
+        <div class="container" style="padding: 30px;" >
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="estudiante.nombres"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="estudiante.nombres" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="estudiante.apellidos"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="estudiante.apellidos" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="estudiante.edad"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="estudiante.edad" class="form-control">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="estudiante.direccion"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="estudiante.direccion" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="estudiante.email"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="estudiante.email" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <label asp-for="estudiante.codigoEstudiante"></label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input asp-for="estudiante.codigoEstudiante" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+             <div class="form-group" >
+                <div class="row">
+                   <label for="lang" class="LabelLeft" asp-for="estudiante.grado">
+                    </label>
+
+                    <select class="form-select form-select-sm" asp-for="estudiante.grado" >
+                        <option >--Seleccione su Curso--</option>
+                        <option value="Sexto" asp-for="estudiante.grado">Sexto</option>
+                        <option value="Septimo" asp-for="estudiante.grado">Septimo</option>
+                        <option value="Octavo" asp-for="estudiante.grado">Octavo</option>
+                        <option value="Noveno" asp-for="estudiante.grado">Noveno</option>
+                        <option value="Decimo" asp-for="estudiante.grado">Decimo</option>
+                        <option value="Once" asp-for="estudiante.grado">Once</option>
+                    </select> 
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2 offset-sm-2">
+                       <input type="submit" value="Registrar" class="btn btn-primary form-control">
+                    </div>
+                    <div class="col-sm-2">
+                        <a asp-page="/Index" class="btn btn-success form-control">Volver</a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </form>
+
+</div>
